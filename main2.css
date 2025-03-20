@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button,
+footer h3 {
+    font-family: "Bungee", cursive;
+    font-weight: normal
+}
+
+body, input, textarea {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+
+header {
+    padding: 16px 0;
+    background-color: #182c61;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white
+}
+
+section {
+    padding: 24px 0;
+    color: #182c61;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.frente-loja {
+    margin-right: 32px;
+}
+
+.lista-logo img{
+    height: 24px;
+    margin: 8px
+}
+
+.lista-logo li {
+    display: inline
+}
+
+#contact .container {
+    display: block;
+}
+
+form input,
+form textarea,
+#contact .container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 8px;
+    background-color: #182c61;
+    color: white;
+    border: none;
+    cursor: pointer;
+    }
+
+form button:hover {
+    background-color: #335fd7;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182c61;
+}
+
+footer .container {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background-color: #182c61;
+    color: white;
+}
+
+footer h3 {
+    margin-bottom: 12px;
+}
